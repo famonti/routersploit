@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.12.0rc2
 
 COPY requirements.txt /tmp/requirements.txt
 RUN python -m pip install -r /tmp/requirements.txt
