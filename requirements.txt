@@ -3,3 +3,4 @@ requests==2.21.0
 paramiko
 pysnmp==4.4.6
 pycryptodome
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
